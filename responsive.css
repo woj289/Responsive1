@@ -1,0 +1,57 @@
+
+
+.nav ul li
+{
+	width: 25%;
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+.one-responsive
+{
+	float: left;
+	width: 42%;
+	margin-left: 4%;
+}
+
+.last-responsive
+{
+	width: auto;
+	margin: 4%;
+}
+
+.left-column
+{
+	margin: 3%;
+	width: 94%;
+}
+
+.right-columns
+{
+	width: 97%;
+	margin: 3%;
+}
+
+
+@media screen and (max-width: 720px)
+{
+	.nav ul li {
+		text-align: right;
+	}
+	.header
+	{
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.nav ul li {
+		text-align: right;
+	}
+
+	}
